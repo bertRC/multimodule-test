@@ -8,6 +8,7 @@ public class MainTest {
     @Test
     public void mainTest() {
         String text = "Hello World!";
+        System.out.println(text);
         assertNotNull(text);
     }
 }
